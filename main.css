@@ -359,7 +359,11 @@ body{
     overflow-x: hidden;
 }
 
+section{
 
+    padding: 50px 2px 2px 2px;
+
+}
 
 .nav-links{
     position: absolute;
