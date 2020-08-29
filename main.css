@@ -235,10 +235,11 @@ input[type=text],[type=email], textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
+    color:white;
     }
     
     input[type=submit] {
-    background-color: rgb(253, 253, 253);
+    background-color: white;
     color: rgb(0, 0, 0);
     padding: 12px 20px;
     border: none;
@@ -247,7 +248,7 @@ input[type=text],[type=email], textarea {
     }
     
     input[type=submit]:hover {
-    background-color: rgb(255, 255, 255);
+    background-color: grey;
     }
     
     /* Style contact section */
@@ -284,6 +285,9 @@ input[type=text],[type=email], textarea {
     #subject{
         border-radius: 10px;
        max-width: 90%;
+        background-color: transparent;
+        color:white;
+        border:1px solid white;
     }
 
     .columnheading{
